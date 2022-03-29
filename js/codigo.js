@@ -101,9 +101,7 @@ function mostrarAutos(autos){
     /*HTML*/
     autos.forEach(auto => {
         const autoHTML = document.createElement('p');
-        autoHTML.innerHTML = `
-            <p>${auto.marca} ${auto.modelo} - ${auto.year} - ${auto.puertas} Puertas - Transmisión: ${auto.transmision} - Precio: ${auto.precio} - Color: ${auto.color}</p>
-        `;
+        autoHTML.innerHTML = `<p>${auto.marca} ${auto.modelo} - ${auto.year} - ${auto.puertas} Puertas - Transmisión: ${auto.transmision} - Precio: ${auto.precio} - Color: ${auto.color}</p>`;
         contenedor.appendChild(autoHTML);
     })
 }
