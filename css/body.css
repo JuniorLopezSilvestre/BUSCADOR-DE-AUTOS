@@ -69,3 +69,12 @@ form {
 .sitio-web:hover {
     color: white;
 }
+.button{ 
+    border: #e1e1e1;
+
+}
+.bt{
+    display: flex;
+    justify-content: center;
+}
+

@@ -172,3 +172,6 @@ const autos = [
         transmision: 'automatico' 
     }
 ];
+
+const btnSA = document.getElementById("sweetAlertBtn");
+
